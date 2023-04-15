@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(19, 59, 59);
+  font-family: Oswald, sans-serif;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(16, 39, 39);
+  width: 1440px;
+  text-align: center;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+#color-palette {
+  padding: 30px 0 10px;
+  height: 77px;
+  width: 450px;
+}
+
+.buttons {
+  margin-bottom: 30px;
+}
+
+#button-random-color , #clear-board {
+  background-color: rgb(230, 241, 241);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: Lucida Sans, Geneva, Verdana, sans-serif;
+}
+
+#button-random-color:hover , #clear-board:hover {
+  background-color: rgb(214, 225, 225);
+  transform: scale(1.01, 1.01);
+}
+
+#generate-board {
+  padding: 3px 10px;
+  background-color: rgb(230, 241, 241);
+}
+
+#generate-board:hover {
+  background-color: rgb(186, 194, 194);
+}
+
+#board-size {
+  padding: 5px 50px;
+  width: 50px;
+}
+
+.color {
+  width: 90px;
+  height: 60px;
+  border: black solid 1px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.color:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#first-color {
+  background-color: black;
+  height: 60px;
+}
+
+#second-color {
+  background-color: blue;
+}
+
+#third-color {
+  background-color: pink;
+}
+
+#fourth-color {
+  background-color: green;
+}
+
+#pixel-board {
+  margin-top: 15px;
+  margin-bottom: 100px;
+  width: 210px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: black solid 1px;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+}
+
+.selected {
+  border-radius: 10px;
+}
