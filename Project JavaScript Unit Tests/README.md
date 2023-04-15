@@ -1,4 +1,8 @@
-As funções deste projeto estão implementadas na pasta `src` e os arquivos de teste estão na pasta `test`.
+<summary><strong>📝 Estrutura do projeto</strong></summary><br />
+
+  As funções a serem implementadas estão dentro da pasta `src` e seus respectivos testes estão na pasta `tests`. O nome dos arquivos também segue uma ordem definida. Basicamente, os arquivos de teste possuem o nome do arquivo alvo (arquivo da funcionalidade) acrescido do nome `.spec.js`.
+
+  Cada função possui um bloco de comentários em suas primeiras linhas explicando qual é o trabalho que a função deve realizar.
 
 # Requisitos Obrigatórios
 
